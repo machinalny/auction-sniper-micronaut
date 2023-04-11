@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.machinalny
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [ annotation-api, app-name, assertj, awaitility, github-workflow-ci, http-client, java, java-application, junit, kafka, logback, lombok, management, maven, mockito, netty-server, readme, serialization-jsonp, shade, test-resources, yaml ]
