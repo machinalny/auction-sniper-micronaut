@@ -6,12 +6,14 @@ import io.micronaut.context.ApplicationContext;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collections;
 import java.util.Map;
 
 @MicronautTest
+@Disabled //To test locally you need to have kafka running
 class AuctionSniperProducerTest {
 
     @Inject
